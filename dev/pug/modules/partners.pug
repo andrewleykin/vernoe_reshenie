@@ -1,0 +1,8 @@
+section.partners
+	.container
+		.partners__wrap
+			span.partners__title При содействии
+			each object in content.eagl
+				.partners__item 
+					img.partners__img(src=`app/img/content/eagl/${object["icon"]}` alt= object["icon"])
+					span.partners__text= object["text"]

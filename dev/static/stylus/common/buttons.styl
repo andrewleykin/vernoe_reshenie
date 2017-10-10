@@ -1,0 +1,19 @@
+.g-btn
+	font-size 20px
+	color #fff
+	display block
+	width 276px
+	height 65px
+	border-radius 10px
+	background accentColor
+	line-height 65px
+	text-align center
+	cursor pointer
+	border-bottom 5px solid darken(accentColor, 50%)
+	@extend .trs
+	&:hover
+		background darken(accentColor, 20%)
+	&:active
+		background darken(accentColor, 20%)
+		transform: translateY(2px);
+		border-bottom 2px solid darken(accentColor, 50%)
